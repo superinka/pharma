@@ -1,0 +1,31 @@
+ .clearfix {
+     clear: both;
+     display: table;
+     content: "";
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ a :hover {
+     text-decoration: none;
+ }
+ 
+ .owl-controls {
+     position: absolute;
+     top: 40%;
+     width: 100%;
+ }
+ 
+ .owl-theme .owl-controls .owl-nav>.owl-prev {
+     position: absolute;
+     left: 0;
+     color: #3954A5;
+ }
+ 
+ .owl-theme .owl-controls .owl-nav>.owl-next {
+     position: absolute;
+     right: 0;
+     color: #3954A5;
+ }
