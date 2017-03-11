@@ -78,7 +78,24 @@
                 <!-- side-bar -->
                 <div class="side-bar">
                     <div class="row">
-                        <div class="cate-menu"></div>
+                        <div class="cate-menu">
+                            <div class="navigation">
+                                <ul>
+                                    <li class="has-sub"> <a href="#">Thuốc</a>
+                                        <ul>
+                                            <li><a href="#">Tim Mạch</a></li>
+                                            <li><a href="#">Huyết áp</a></li>
+                                            <li><a href="#">Dạ dày</a></li>
+                                            <li><a href="#">Sinh lý</a></li>
+                                            <li><a href="#">Thuốc bôi ngoài ra</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Thuốc bôi ngoài ra</a></li>
+                                    <li><a href="#">Thuốc bôi ngoài ra</a></li>
+                                    <li><a href="#">Thuốc bôi ngoài ra</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="videos"></div>
@@ -98,56 +115,60 @@
             <div class="col-md-9">
                 <!-- features -->
                 <div class="features">
+                    <div class="feature-product">
+                        <div class="box ribbon both_ribbon">
+                            <h2>Ribbon side to side</h2>
+                        </div>
+                    </div>
+                    <!-- /features -->
                 </div>
-                <!-- /features -->
             </div>
+            <!-- /main-content -->
+
+            <!-- footer -->
+            <div class="footer">
+            </div>
+            <!-- /footer -->
         </div>
-        <!-- /main-content -->
 
-        <!-- footer -->
-        <div class="footer">
-        </div>
-        <!-- /footer -->
-    </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".owl-carousel-slider").owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true,
-                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                        dots: false
-                    },
-                    600: {
-                        items: 1,
-                        nav: true,
-                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                        dots: false
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                        dots: false,
-                        loop: false
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".owl-carousel-slider").owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true,
+                            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                            dots: false
+                        },
+                        600: {
+                            items: 1,
+                            nav: true,
+                            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                            dots: false
+                        },
+                        1000: {
+                            items: 1,
+                            nav: true,
+                            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                            dots: false,
+                            loop: false
+                        }
                     }
-                }
+                });
+
+
             });
-
-
-        });
-    </script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
+        </script>
+        <script src="assets/owlcarousel/owl.carousel.js"></script>
 </body>
 
 </html>
